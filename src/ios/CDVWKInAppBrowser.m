@@ -744,7 +744,7 @@ BOOL isExiting = FALSE;
     self.automaticallyAdjustsScrollViewInsets = YES ;
     [self.webView setAutoresizingMask:UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth];
     self.webView.allowsLinkPreview = NO;
-    self.webView.allowsBackForwardNavigationGestures = NO;
+    self.webView.allowsBackForwardNavigationGestures = YES;
     
     [self.webView.scrollView setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
     
